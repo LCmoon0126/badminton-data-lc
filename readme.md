@@ -3,14 +3,14 @@
 
 -- 数据库设计
 
-sql
-CREATE DATABASE myapp;
-USE myapp;
+sql  
+CREATE DATABASE myapp;  
+USE myapp;  
 
-CREATE TABLE records (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    date DATE,  -- 日期
-    name VARCHAR(255) -- 人名  
+CREATE TABLE records (  
+    id INT AUTO_INCREMENT PRIMARY KEY,  
+    date DATE,  -- 日期  
+    name VARCHAR(255) -- 人名    
 );
 
 
