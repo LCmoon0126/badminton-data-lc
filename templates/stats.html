@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>  
+<h1>羽毛球参与次数统计</h1>   
+
+<h2>英雄榜！</h2>  
+<ul>
+{% for name, count in sorted_counts %}
+    <li>{{ name }} - {{ count }}次</li>  
+{% endfor %} 
+</ul>  
+
+</body>
+</html> 

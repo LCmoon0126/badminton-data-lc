@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>多久没来打球了</h1>   
+
+<table>
+{% for result in results %}
+<tr> 
+    <td>{{ result.name }}</td>
+    <td>{{ result.max_date }}</td> 
+    <td>{{ result.days }}天</td>
+</tr>
+{% endfor %}
+</table>
+    
+</body>
+</html>
